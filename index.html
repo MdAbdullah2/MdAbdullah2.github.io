@@ -5,677 +5,789 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Md. Abdullah | IT & Logistics Professional</title>
 <meta name="description" content="Professional portfolio of Md. Abdullah — IT & Logistics Professional with 10.9 years of experience in warehouse, inventory, commodity and logistics management.">
-<style>
-:root{--navy:#0b1f33;--blue:#1677a8;--cyan:#25a7c7;--ink:#17212b;--muted:#64748b;--bg:#eef3f7;--card:#fff;--line:#dce6ee}
-*{box-sizing:border-box;scroll-behavior:smooth}
-body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
-a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 22px}
-nav{position:sticky;top:0;z-index:10;background:rgba(11,31,51,.96);backdrop-filter:blur(10px);color:#fff}
-.navin{height:64px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-weight:800;letter-spacing:.5px}.logo span{color:#5dd5ef}
-.navlinks{display:flex;gap:22px;font-size:13px}.navlinks a:hover{color:#5dd5ef}
-.hero{background:linear-gradient(135deg,#071827,#103b5a 58%,#147b9b);color:white;padding:75px 0 65px;position:relative;overflow:hidden}
-.hero:after{content:"";position:absolute;width:360px;height:360px;border:1px solid rgba(255,255,255,.12);border-radius:50%;right:-120px;top:-100px}
-.hero-grid{display:grid;grid-template-columns:1fr;gap:25px;align-items:center;position:relative}
-.badge{display:inline-block;padding:7px 13px;border:1px solid rgba(255,255,255,.25);border-radius:30px;font-size:12px;letter-spacing:.5px;margin-bottom:15px}
-h1{font-size:clamp(38px,6vw,64px);line-height:1.05;margin:0 0 10px;letter-spacing:-2px}
-.hero h2{font-size:21px;font-weight:500;margin:0 0 20px;color:#cdebf4}.hero p{max-width:690px;color:#d4e3ea;margin:0 0 24px}
-.cta{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:11px 17px;border-radius:8px;font-weight:700;font-size:13px;border:1px solid rgba(255,255,255,.25)}.btn.primary{background:#fff;color:var(--navy)}.btn:hover{transform:translateY(-1px)}
-.profile-wrap{position:absolute;right:7%;top:70px;z-index:2}.profile-photo{width:150px;height:150px;object-fit:cover;border-radius:50%;border:5px solid rgba(255,255,255,.9);box-shadow:0 15px 35px rgba(0,0,0,.28)}
-.hero-side{max-width:500px;margin-left:auto;width:100%;padding-top:135px}.hero-card{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.15);padding:22px;border-radius:16px;box-shadow:0 20px 45px rgba(0,0,0,.15)}
-.stat{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.13);font-size:13px}.stat:last-child{border:0}.stat strong{color:#fff}
-section{padding:58px 0}.section-title{font-size:28px;margin:0 0 8px;color:var(--navy)}.section-sub{color:var(--muted);margin:0 0 30px}
-.grid2{display:grid;grid-template-columns:1.4fr .6fr;gap:25px}.card{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:26px;box-shadow:0 8px 25px rgba(11,31,51,.045)}
-.timeline{position:relative;padding-left:27px}.timeline:before{content:"";position:absolute;left:5px;top:7px;bottom:5px;width:2px;background:#cbdce7}
-.job{position:relative;margin-bottom:29px}.job:before{content:"";position:absolute;left:-27px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--cyan);box-shadow:0 0 0 4px #e4f3f7}
-.job h3{margin:0;color:#153f5b;font-size:18px}.meta{font-size:12px;color:var(--muted);margin:3px 0 8px}.job ul{margin:7px 0 0;padding-left:19px}.job li{margin:4px 0}
-.skills{display:flex;flex-wrap:wrap;gap:8px}.skill{padding:8px 11px;background:#edf6fa;border:1px solid #d5e9f0;color:#175775;border-radius:8px;font-size:12px;font-weight:650}
-.edu{padding:15px 0;border-bottom:1px solid var(--line)}.edu:last-child{border:0}.edu strong{display:block;color:#153f5b}
-.train li{margin:8px 0}.ref{margin-bottom:18px}.ref strong{color:#153f5b}
-footer{background:#071827;color:#aebfc9;text-align:center;padding:25px;font-size:12px}
-.top{position:fixed;right:18px;bottom:18px;background:var(--blue);color:white;padding:10px 13px;border-radius:50%;box-shadow:0 8px 20px #0003}
-@media(max-width:800px){.hero-grid,.grid2{grid-template-columns:1fr}.navlinks{display:none}.hero{padding:42px 0 50px}.hero-grid{padding-top:8px}.profile-wrap{right:22px;top:42px}.profile-photo{width:112px;height:112px}.hero-grid>div:first-child{padding-right:0}.hero h1{padding-right:118px}.hero-side{padding-top:90px;max-width:none}.hero-card{max-width:500px}section{padding:42px 0}.card{padding:20px}}
-@media print{nav,.cta,.top{display:none}.hero{background:#0b1f33}.card{box-shadow:none}}
-
-/* FINAL HERO PHOTO LAYOUT */
-.hero::before,
-.hero::after { display:none !important; }
-
-.hero-grid {
-  display:flex !important;
-  flex-direction:column !important;
-  align-items:stretch !important;
-  gap:22px !important;
-}
-
-.hero-grid > div:first-child {
-  padding-right:0 !important;
-}
-
-.profile-wrap {
-  position:static !important;
-  width:150px !important;
-  height:150px !important;
-  margin:0 auto !important;
-  border-radius:50% !important;
-  overflow:hidden !important;
-  border:4px solid rgba(255,255,255,.9) !important;
-  box-shadow:0 12px 28px rgba(0,0,0,.25) !important;
-  z-index:2 !important;
-}
-
-.profile-photo {
-  width:100% !important;
-  height:100% !important;
-  object-fit:cover !important;
-  border:0 !important;
-  border-radius:50% !important;
-  display:block !important;
-}
-
-.hero-side {
-  padding-top:0 !important;
-  width:100% !important;
-  max-width:none !important;
-}
-
-@media(max-width:800px) {
-  .hero { padding-top:32px !important; }
-  .profile-wrap { width:120px !important; height:120px !important; }
-  .hero h1 { padding-right:0 !important; }
-}
 
 
-/* Professional hero layout: photo on the right of the name/content */
-.hero-grid{
-  display:grid !important;
-  grid-template-columns:minmax(0,1.55fr) minmax(280px,.75fr) !important;
-  gap:34px !important;
-  align-items:center !important;
-}
-.hero-main{min-width:0}
-.hero-profile-row{
-  display:flex !important;
-  align-items:center !important;
-  justify-content:space-between !important;
-  gap:28px !important;
-  margin-top:8px !important;
-}
-.hero-copy{min-width:0;flex:1}
-.hero-copy h2{margin-top:0 !important}
-.profile-wrap{
-  position:static !important;
-  flex:0 0 138px !important;
-  width:138px !important;
-  height:138px !important;
-  margin:0 !important;
-  border-radius:50% !important;
-  overflow:hidden !important;
-  border:4px solid rgba(255,255,255,.9) !important;
-  box-shadow:0 10px 24px rgba(0,0,0,.25) !important;
-}
-.profile-photo{
-  width:100% !important;height:100% !important;
-  object-fit:cover !important;display:block !important;
-  border-radius:50% !important;
-}
-.quick-links{
-  display:flex !important;
-  flex-wrap:wrap !important;
-  gap:9px !important;
-  margin-top:20px !important;
-}
-.quick-links .btn{
-  white-space:nowrap !important;
-}
-@media(max-width:900px){
-  .hero-grid{grid-template-columns:1fr !important}
-  .hero-profile-row{align-items:flex-start !important}
-}
-@media(max-width:600px){
-  .hero-profile-row{gap:15px !important}
-  .profile-wrap{flex-basis:105px !important;width:105px !important;height:105px !important}
-  .quick-links .btn{font-size:11px !important;padding:8px 9px !important}
-}
 
 
-/* Final V2 hero layout */
-.hero-grid{
-  display:grid !important;
-  grid-template-columns:minmax(0,1.8fr) minmax(260px,.65fr) !important;
-  gap:42px !important;
-  align-items:start !important;
-}
-.hero-main{min-width:0}
-.hero-profile-row{
-  display:flex !important;
-  align-items:flex-start !important;
-  justify-content:space-between !important;
-  gap:38px !important;
-  margin-top:10px !important;
-}
-.hero-copy{
-  min-width:0;
-  flex:1 1 auto !important;
-}
-.hero-copy p{
-  max-width:760px !important;
-  line-height:1.75 !important;
-  margin-right:0 !important;
-}
-.profile-wrap{
-  position:relative !important;
-  top:-20px !important;
-  flex:0 0 142px !important;
-  width:142px !important;
-  height:142px !important;
-  margin:0 !important;
-  border-radius:50% !important;
-  overflow:hidden !important;
-  border:4px solid rgba(255,255,255,.9) !important;
-  box-shadow:0 10px 24px rgba(0,0,0,.25) !important;
-}
-.profile-photo{
-  width:100% !important;
-  height:100% !important;
-  object-fit:cover !important;
-  display:block !important;
-  border-radius:50% !important;
-}
-.quick-links{
-  display:flex !important;
-  flex-wrap:wrap !important;
-  gap:10px !important;
-  margin-top:24px !important;
-}
-.quick-links .btn{
-  white-space:nowrap !important;
-}
-@media(max-width:900px){
-  .hero-grid{
-    grid-template-columns:1fr !important;
-    gap:26px !important;
-  }
-  .hero-profile-row{
-    gap:22px !important;
-  }
-  .profile-wrap{
-    top:-8px !important;
-  }
-}
-@media(max-width:600px){
-  .hero-profile-row{
-    gap:14px !important;
-  }
-  .profile-wrap{
-    flex-basis:105px !important;
-    width:105px !important;
-    height:105px !important;
-    top:-5px !important;
-  }
-  .hero-copy p{
-    line-height:1.65 !important;
-  }
-  .quick-links .btn{
-    font-size:11px !important;
-    padding:8px 9px !important;
-  }
-}
-
-</style>
-
-<style>
-/* Final: profile photo positioned at the marked upper-right area */
-.profile-wrap{
-  position:absolute !important;
-  right:7% !important;
-  top:70px !important;
-  width:180px !important;
-  height:180px !important;
-  margin:0 !important;
-  border-radius:50% !important;
-  overflow:hidden !important;
-  border:4px solid rgba(255,255,255,.8) !important;
-  box-shadow:0 12px 35px rgba(0,0,0,.35) !important;
-  z-index:10 !important;
-}
-.profile-photo{
-  width:100% !important;
-  height:100% !important;
-  object-fit:cover !important;
-  display:block !important;
-}
-@media(max-width:700px){
-  .profile-wrap{
-    width:120px !important;
-    height:120px !important;
-    right:6% !important;
-    top:75px !important;
-  }
-}
-</style>
 
 <style>
 /* =========================================================
-   FINAL CLEAN RESPONSIVE DESIGN
-   Desktop / Tablet / Mobile
+   MD. ABDULLAH PORTFOLIO — CLEAN RESPONSIVE CSS
+   ---------------------------------------------------------
+   Editing guide:
+   - All spacing/padding values are grouped and labelled below.
+   - Desktop: 901px and above
+   - Tablet: 601px–900px
+   - Mobile: 600px and below
    ========================================================= */
 
-* { box-sizing: border-box; }
-
-html { scroll-behavior: smooth; }
-
-body {
-  margin: 0;
-  overflow-x: hidden;
+/* ---------- 1) GLOBAL / THEME ---------- */
+:root{
+  --navy:#0b1f33;
+  --blue:#1677a8;
+  --cyan:#25a7c7;
+  --ink:#17212b;
+  --muted:#64748b;
+  --bg:#eef3f7;
+  --card:#fff;
+  --line:#dce6ee;
 }
 
-.wrap {
-  width: min(1180px, calc(100% - 40px)) !important;
-  margin-inline: auto !important;
+*{
+  box-sizing:border-box;
+  scroll-behavior:smooth;
 }
 
-/* ---------- HEADER / NAV ---------- */
-nav {
-  width: 100% !important;
+html{scroll-behavior:smooth;}
+
+body{
+  margin:0;
+  overflow-x:hidden;
+  font-family:Inter,Segoe UI,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--ink);
+  line-height:1.65;
 }
 
-.navin {
-  width: min(1180px, calc(100% - 40px)) !important;
-  margin-inline: auto !important;
+a{
+  color:inherit;
+  text-decoration:none;
 }
 
-/* ---------- HERO ---------- */
-.hero {
-  position: relative !important;
-  padding: 58px 0 64px !important;
-  overflow: hidden !important;
+/* Main content width — change 1180px to make the whole site wider/narrower. */
+.wrap{
+  width:min(1180px,calc(100% - 48px));
+  max-width:1180px;
+  margin-inline:auto;
 }
 
-.hero-grid {
-  display: grid !important;
-  grid-template-columns: minmax(0, 1.5fr) minmax(300px, .7fr) !important;
-  gap: 46px !important;
-  align-items: start !important;
+/* ---------- 2) NAVIGATION ---------- */
+nav{
+  position:sticky;
+  top:0;
+  z-index:100;
+  width:100%;
+  background:rgba(11,31,51,.96);
+  backdrop-filter:blur(10px);
+  color:#fff;
 }
 
-.hero-main {
-  min-width: 0 !important;
+.navin{
+  min-height:58px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 }
 
-.hero-profile-row {
-  display: block !important;
-  margin-top: 8px !important;
+.logo{
+  font-weight:800;
+  letter-spacing:.5px;
 }
 
-.hero-copy {
-  max-width: 760px !important;
+.logo span{color:#5dd5ef;}
+
+.navlinks{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  font-size:12px;
 }
 
-.hero h1 {
-  font-size: clamp(48px, 5vw, 66px) !important;
-  line-height: 1.05 !important;
-  margin: 14px 0 14px !important;
-  padding-right: 0 !important;
+.navlinks a:hover{color:#5dd5ef;}
+
+/* ---------- 3) HERO / TOP PROFILE ---------- */
+.hero{
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(135deg,#071827,#103b5a 58%,#147b9b);
+  color:#fff;
+
+  /* HERO PADDING — top | right | bottom | left */
+  padding:38px 0 38px;
 }
 
-.hero h2 {
-  font-size: 23px !important;
-  line-height: 1.45 !important;
+/* HERO LAYOUT — same structure on desktop, tablet and mobile.
+   Profile photo remains upper-right; the info card stays below the buttons. */
+.hero-grid{
+  display:block;
+  width:100%;
 }
 
-.hero p {
-  max-width: 720px !important;
-  font-size: 16px !important;
-  line-height: 1.75 !important;
+.hero-main{min-width:0;}
+
+.badge{
+  display:inline-block;
+  padding:7px 11px; /* BADGE: inner top/bottom + left/right */
+  border:1px solid rgba(255,255,255,.25);
+  border-radius:30px;
+  font-size:10px;
+  letter-spacing:.5px;
+  margin-bottom:12px;
 }
 
-/* Profile photo: desktop upper-right */
-.profile-wrap {
-  position: absolute !important;
-  right: max(40px, calc((100vw - 1180px) / 2 + 70px)) !important;
-  top: 22px !important;
-  width: 150px !important;
-  height: 150px !important;
-  margin: 0 !important;
-  z-index: 30 !important;
+.hero h1{
+  font-size:42px;
+  line-height:1.08;
+  margin:12px 0 10px; /* NAME: space above/below */
+  padding:0; /* NAME: no extra inner spacing */
+  letter-spacing:-1px;
 }
 
-.hero-side {
-  width: 100% !important;
-  max-width: 420px !important;
-  margin-left: auto !important;
-  padding-top: 170px !important;
+.hero-profile-row{
+  display:block;
+  margin:0;
 }
 
-.hero-card {
-  width: 100% !important;
+.hero-copy{
+  max-width:650px;
+  min-width:0;
 }
 
-/* Buttons */
+.hero-copy h2{
+  font-size:17px;
+  line-height:1.45;
+  margin:0 0 12px; /* HERO SUBTITLE: bottom gap */
+  font-weight:500;
+  color:#cdebf4;
+}
+
+.hero-copy p{
+  max-width:650px;
+  margin:0;
+  font-size:12px;
+  line-height:1.65;
+  color:#d4e3ea;
+}
+
 .cta,
-.quick-links {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 10px !important;
-  margin-top: 22px !important;
+.quick-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+  margin-top:16px; /* HERO BUTTONS: gap above buttons */
 }
 
-.btn {
-  white-space: nowrap !important;
+.btn{
+  white-space:nowrap;
+  padding:8px 10px; /* BUTTON: inner top/bottom + left/right */
+  border:1px solid rgba(255,255,255,.25);
+  border-radius:8px;
+  font-weight:700;
+  font-size:10px;
 }
 
-/* ---------- MAIN SECTIONS ---------- */
-main.wrap {
-  width: min(1180px, calc(100% - 40px)) !important;
+.btn.primary{
+  background:#fff;
+  color:var(--navy);
 }
 
-section {
-  padding: 54px 0 !important;
+.btn:hover{transform:translateY(-1px);}
+
+/* Profile photo — desktop position is upper-right of the hero. */
+.profile-wrap{
+  position:absolute;
+  right:max(36px,calc((100vw - 1180px)/2 + 52px));
+  top:32px;
+  width:112px;
+  height:112px;
+  margin:0;
+  z-index:20;
+  overflow:hidden;
+  border-radius:50%;
+  border:4px solid rgba(255,255,255,.85);
+  box-shadow:0 12px 30px rgba(0,0,0,.28);
 }
 
-.section-title {
-  margin-bottom: 8px !important;
+.profile-photo{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:50%;
 }
 
-.section-sub {
-  margin-bottom: 20px !important;
+/* Right-side hero information card — placed below the profile photo. */
+/* HERO INFO AREA — below the hero text/buttons on every screen size. */
+.hero-side{
+  width:100%;
+  max-width:650px;
+  margin:20px 0 0;
+  padding:0;
 }
 
-/* Experience */
-.timeline {
-  width: 100% !important;
+.hero-card{
+  width:100%;
+  padding:14px 17px; /* HERO INFO CARD: inner spacing */
+  background:rgba(255,255,255,.09);
+  border:1px solid rgba(255,255,255,.15);
+  border-radius:12px;
+  box-shadow:0 20px 45px rgba(0,0,0,.15);
 }
 
-.job {
-  padding-bottom: 24px !important;
-  margin-bottom: 24px !important;
+.stat{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding:8px 0; /* HERO INFO ROW: vertical spacing */
+  border-bottom:1px solid rgba(255,255,255,.13);
+  font-size:10px;
 }
 
-.job:last-child {
-  padding-bottom: 0 !important;
-  margin-bottom: 0 !important;
+.stat:last-child{border:0;}
+.stat strong{color:#fff;}
+
+/* ---------- 4) COMMON SECTION SPACING ---------- */
+section{
+  /* ALL SECTION TOP/BOTTOM GAP — same baseline for every main section. */
+  padding:32px 0;
 }
 
-/* Skills */
-.skills {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 8px !important;
-  align-items: flex-start !important;
+.section-title{
+  font-size:24px;
+  line-height:1.2;
+  margin:0 0 6px; /* TITLE: small gap below heading */
+  color:var(--navy);
 }
 
-/* Education + Training
-   IMPORTANT: no fixed equal-height columns */
-.grid2 {
-  display: grid !important;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
-  gap: 26px !important;
-  align-items: start !important;
+.section-sub{
+  font-size:11px;
+  line-height:1.5;
+  margin:0 0 17px; /* SUBTITLE: gap before the card */
+  color:var(--muted);
 }
 
-.grid2 > div {
-  min-width: 0 !important;
-  align-self: start !important;
+/* ---------- 5) CARDS ---------- */
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:22px 26px; /* GENERAL CARD: inner spacing */
+  box-shadow:0 8px 25px rgba(11,31,51,.045);
 }
 
-.grid2 .card {
-  height: auto !important;
-  min-height: 0 !important;
-  margin: 0 !important;
+/* ---------- 6) PROFESSIONAL EXPERIENCE ---------- */
+.timeline{
+  position:relative;
+  width:100%;
+  padding-left:22px; /* TIMELINE: space between line and job text */
 }
 
-.train {
-  height: auto !important;
-  max-height: none !important;
-  overflow: visible !important;
+.timeline:before{
+  content:"";
+  position:absolute;
+  left:5px;
+  top:7px;
+  bottom:5px;
+  width:2px;
+  background:#cbdce7;
 }
 
-.train ul {
-  margin: 0 !important;
-  padding-left: 20px !important;
+.job{
+  position:relative;
+  margin-bottom:20px; /* JOB: gap between experience entries */
 }
 
-/* Contact + References */
-#contact .grid2 {
-  align-items: start !important;
+.job:last-child{margin-bottom:0;}
+
+.job:before{
+  content:"";
+  position:absolute;
+  left:-27px;
+  top:7px;
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  background:var(--cyan);
+  box-shadow:0 0 0 4px #e4f3f7;
 }
 
-#contact .card {
-  height: auto !important;
-  min-height: 0 !important;
+.job h3{
+  margin:0;
+  color:#153f5b;
+  font-size:14px;
+  line-height:1.35;
 }
 
-/* ---------- TABLET ---------- */
-@media (min-width: 601px) and (max-width: 900px) {
-
-  .wrap,
-  .navin,
-  main.wrap {
-    width: calc(100% - 32px) !important;
-  }
-
-  .hero {
-    padding: 42px 0 50px !important;
-  }
-
-  .hero-grid {
-    grid-template-columns: 1fr !important;
-    gap: 24px !important;
-  }
-
-  .hero h1 {
-    font-size: 48px !important;
-    padding-right: 170px !important;
-  }
-
-  .profile-wrap {
-    right: 28px !important;
-    top: 22px !important;
-    width: 125px !important;
-    height: 125px !important;
-  }
-
-  .hero-side {
-    max-width: 100% !important;
-    padding-top: 25px !important;
-  }
-
-  .grid2 {
-    grid-template-columns: 1fr 1fr !important;
-    gap: 20px !important;
-  }
+.meta{
+  font-size:10px;
+  color:var(--muted);
+  margin:3px 0 8px; /* JOB META: gap around date/company line */
 }
 
-/* ---------- MOBILE ---------- */
-@media (max-width: 600px) {
+.job ul{
+  margin:7px 0 0;
+  padding-left:19px; /* BULLET LIST: left indent */
+}
 
-  .wrap,
-  .navin,
-  main.wrap {
-    width: calc(100% - 24px) !important;
+.job li{
+  margin:4px 0;
+  font-size:10px;
+  line-height:1.55;
+}
+
+/* ---------- 7) CORE COMPETENCIES ---------- */
+#skills{
+  /* CORE COMPETENCIES TOP GAP — exactly the same as Education and Contact. */
+  padding-top:32px;
+}
+
+#skills .section-sub{
+  margin-bottom:14px;
+}
+
+#skills .card{
+  padding:18px 22px; /* CORE COMPETENCIES CARD: inner spacing */
+}
+
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-start;
+  gap:6px;
+}
+
+.skill{
+  padding:6px 8px; /* SKILL TAG: inner spacing */
+  background:#edf6fa;
+  border:1px solid #d5e9f0;
+  color:#175775;
+  border-radius:8px;
+  font-size:9px;
+  font-weight:650;
+}
+
+/* ---------- 8) EDUCATION + TRAINING ---------- */
+#education .grid2{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:22px;
+  align-items:start;
+}
+
+#education .grid2 > div{
+  min-width:0;
+  margin:0;
+  align-self:start;
+}
+
+#education .section-title{
+  margin-top:0;
+  margin-bottom:8px;
+}
+
+/* EDUCATION + TRAINING CARD — stable inner padding on desktop and mobile. */
+#education .card{
+  height:auto;
+  min-height:0;
+  margin:0;
+  padding:15px;
+}
+
+.edu{
+  padding:10px 0; /* EDUCATION ITEM: top/bottom spacing */
+  border-bottom:1px solid var(--line);
+  font-size:10px;
+  line-height:1.5;
+}
+
+.edu:last-child{border:0;}
+
+.edu strong{
+  display:block;
+  color:#153f5b;
+}
+
+.train{
+  height:auto;
+  max-height:none;
+  overflow:visible;
+}
+
+.train ul{
+  margin:0;
+  padding-left:20px; /* TRAINING LIST: left indent */
+}
+
+.train li{
+  margin:5px 0; /* TRAINING ITEM: vertical spacing */
+  font-size:10px;
+  line-height:1.45;
+}
+
+/* ---------- 9) CONTACT + REFERENCES ---------- */
+#contact{
+  /* CONTACT & REFERENCES TOP GAP — same as Core Competencies and Education. */
+  padding-top:32px;
+}
+
+#contact .grid2{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px;
+  align-items:start;
+}
+
+#contact .grid2 > div{
+  margin:0;
+  align-self:start;
+}
+
+/* CONTACT + REFERENCES CARD — stable inner padding on desktop and mobile. */
+#contact .card{
+  height:auto;
+  min-height:0;
+  margin:0;
+  padding:15px;
+}
+
+#contact .card h3{
+  margin-top:0;
+}
+
+#contact .card p{
+  margin:9px 0;
+}
+
+.ref{
+  margin-bottom:10px; /* REFERENCE ITEM: gap between references */
+  font-size:10px;
+  line-height:1.45;
+}
+
+.ref strong{color:#153f5b;}
+
+/* ---------- 10) FOOTER + BACK TO TOP ---------- */
+footer{
+  background:#071827;
+  color:#aebfc9;
+  text-align:center;
+  padding:18px; /* FOOTER: inner spacing */
+  font-size:9px;
+}
+
+.top{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  background:var(--blue);
+  color:#fff;
+  padding:10px 13px; /* BACK-TO-TOP BUTTON: inner spacing */
+  border-radius:50%;
+  box-shadow:0 8px 20px #0003;
+}
+
+/* =========================================================
+   TABLET — 601px to 900px
+   ========================================================= */
+@media (min-width:601px) and (max-width:900px){
+
+  .wrap{
+    width:calc(100% - 32px);
   }
 
-  .hero {
-    padding: 28px 0 34px !important;
+  /* TABLET HERO PADDING */
+  .hero{
+    padding:34px 0 40px;
   }
 
-  .hero-grid {
-    display: block !important;
+  /* Keep the same single-column hero structure used on mobile. */
+.hero-grid{
+  display:block;
+}
+
+  .hero h1{
+    font-size:44px;
+    padding-right:150px;
   }
 
-  .hero-main {
-    width: 100% !important;
+  .profile-wrap{
+    right:28px;
+    top:22px;
+    width:120px;
+    height:120px;
   }
 
-  .hero-profile-row {
-    display: block !important;
+  /* TABLET HERO INFO — same position as mobile. */
+.hero-side{
+  max-width:650px;
+  margin-top:20px;
+  padding:0;
+}
+
+  .hero-card{
+    padding:16px 18px;
   }
 
-  .profile-wrap {
-    right: 14px !important;
-    top: 14px !important;
-    width: 88px !important;
-    height: 88px !important;
+  /* TABLET SECTION PADDING */
+  /* TABLET: same section gap used by desktop and mobile. */
+section{
+  padding:32px 0;
+}
+
+#skills,
+#contact{
+  padding-top:32px;
+}
+}
+
+/* =========================================================
+   MOBILE — 600px and below
+   ========================================================= */
+@media (max-width:600px){
+
+  .wrap{
+    width:calc(100% - 24px);
   }
 
-  .hero h1 {
-    font-size: 34px !important;
-    line-height: 1.1 !important;
-    padding-right: 100px !important;
-    margin: 12px 0 !important;
+  .navlinks{
+    display:none;
   }
 
-  .hero h2 {
-    font-size: 15px !important;
-    line-height: 1.5 !important;
-    margin-bottom: 12px !important;
+  /* MOBILE HERO PADDING */
+  .hero{
+    padding:24px 0 30px;
   }
 
-  .hero p {
-    font-size: 12px !important;
-    line-height: 1.65 !important;
+  /* MOBILE HERO — same structure as desktop. */
+.hero-grid{
+  display:block;
+}
+
+  .hero-main{
+    width:100%;
   }
 
-  .hero-side {
-    width: 100% !important;
-    max-width: none !important;
-    padding-top: 22px !important;
+  .hero h1{
+    font-size:34px;
+    line-height:1.1;
+    padding-right:100px; /* MOBILE NAME: prevents overlap with photo */
+    margin:10px 0;
   }
 
-  .hero-card {
-    padding: 14px !important;
+  .hero-copy{
+    max-width:none;
   }
 
-  .stat {
-    padding: 8px 0 !important;
-    font-size: 10px !important;
+  .hero-copy h2{
+    font-size:15px;
+    line-height:1.5;
+    margin-bottom:10px;
+  }
+
+  .hero-copy p{
+    font-size:12px;
+    line-height:1.65;
+  }
+
+  /* MOBILE PROFILE PHOTO */
+  .profile-wrap{
+    right:14px;
+    top:14px;
+    width:88px;
+    height:88px;
+  }
+
+  /* MOBILE HERO INFO CARD — same position logic as desktop. */
+.hero-side{
+  max-width:none;
+  margin-top:20px;
+  padding:0;
+}
+
+  .hero-card{
+    padding:13px 14px;
+  }
+
+  .stat{
+    padding:7px 0;
+    font-size:10px;
   }
 
   .cta,
-  .quick-links {
-    gap: 6px !important;
-    margin-top: 14px !important;
+  .quick-links{
+    gap:6px;
+    margin-top:13px;
   }
 
-  .btn {
-    font-size: 9px !important;
-    padding: 7px 9px !important;
+  .btn{
+    font-size:9px;
+    padding:7px 9px;
   }
 
-  section {
-    padding: 34px 0 !important;
+  /* MOBILE SECTION PADDING — controls vertical gaps between sections. */
+  /* MOBILE: same top/bottom section gap as desktop. */
+section{
+  padding:32px 0;
+}
+
+#skills{
+  /* Core Competencies uses the same top gap as every other section. */
+  padding-top:32px;
+}
+
+  #skills .card{
+    padding:15px 16px;
   }
 
-  .section-title {
-    font-size: 21px !important;
+  .section-title{
+    font-size:21px;
   }
 
-  .section-sub {
-    font-size: 10px !important;
-    line-height: 1.5 !important;
-    margin-bottom: 16px !important;
+  .section-sub{
+    font-size:10px;
+    line-height:1.5;
+    margin-bottom:14px;
   }
 
-  .card {
-    padding: 15px !important;
-    border-radius: 11px !important;
+  .card{
+    padding:15px;
+    border-radius:11px;
   }
 
-  /* Experience becomes readable */
-  .job {
-    padding-bottom: 18px !important;
-    margin-bottom: 18px !important;
+  .job{
+    margin-bottom:18px;
   }
 
-  .job h3 {
-    font-size: 14px !important;
-    line-height: 1.35 !important;
+  .job h3{
+    font-size:14px;
   }
 
   .meta,
   .job li,
   .edu,
   .train li,
-  .ref {
-    font-size: 10px !important;
-    line-height: 1.55 !important;
+  .ref{
+    font-size:10px;
+    line-height:1.55;
   }
 
-  /* Skills */
-  .skills {
-    gap: 5px !important;
+  .skills{
+    gap:5px;
   }
 
-  .skill {
-    font-size: 9px !important;
-    padding: 5px 7px !important;
+  .skill{
+    font-size:9px;
+    padding:5px 7px;
   }
 
-  /* KEY FIX:
-     Education and Training stack vertically on mobile,
-     so there is NO large empty vertical gap. */
-  .grid2 {
-    display: block !important;
+  /* EDUCATION + TRAINING STACK VERTICALLY ON MOBILE */
+  #education .grid2{
+    display:block;
   }
 
-  .grid2 > div {
-    width: 100% !important;
-    margin: 0 0 22px !important;
+  #education .grid2 > div{
+    width:100%;
+    margin:0 0 32px; /* MOBILE: same visible gap before the Training heading. */
   }
 
-  .grid2 > div:last-child {
-    margin-bottom: 0 !important;
+  #education .grid2 > div:last-child{
+    margin-bottom:0;
   }
 
-  .grid2 .section-title {
-    margin-top: 0 !important;
+  #education .card{
+    padding:15px;
   }
 
-  .grid2 .card {
-    height: auto !important;
-    min-height: 0 !important;
-    margin-bottom: 0 !important;
+  /* CONTACT + REFERENCES STACK VERTICALLY ON MOBILE */
+  #contact{
+    /* Contact & References uses the same top gap as other sections. */
+    padding-top:32px;
   }
 
-  .train {
-    height: auto !important;
-    max-height: none !important;
-    overflow: visible !important;
+  #contact .grid2{
+    display:block;
   }
 
-  /* Contact & References also stack cleanly */
-  #contact .grid2 > div {
-    margin-bottom: 18px !important;
+  #contact .grid2 > div{
+    width:100%;
+    margin:0 0 18px;
   }
 
-  footer {
-    font-size: 8px !important;
+  #contact .grid2 > div:last-child{
+    margin-bottom:0;
+  }
+
+  #contact .card{
+    padding:16px;
+  }
+
+  footer{
+    font-size:8px;
+    padding:15px;
   }
 }
 
-/* Very small phones */
-@media (max-width: 200px) {
-  .hero h1 {
-    font-size: 30px !important;
-    padding-right: 70px !important;
+/* ---------- VERY SMALL PHONES ---------- */
+@media (max-width:380px){
+
+  .hero h1{
+    font-size:30px;
+    padding-right:92px;
   }
 
-  .profile-wrap {
-    width: 80px !important;
-    height: 80px !important;
-    right: 10px !important;
+  .profile-wrap{
+    width:80px;
+    height:80px;
+    right:10px;
   }
 
-  .hero h2 {
-    font-size: 14px !important;
+  .hero-copy h2{
+    font-size:14px;
   }
 
-  .btn {
-    font-size: 8.5px !important;
-    padding: 6px 8px !important;
+  .btn{
+    font-size:8.5px;
+    padding:6px 8px;
   }
 }
+
+/* ---------- PRINT ---------- */
+@media print{
+  nav,.cta,.quick-links,.top{display:none;}
+
+  .hero{
+    background:#0b1f33;
+  }
+
+  .card{
+    box-shadow:none;
+  }
+}
+
+/* =========================================================
+   QUICK EDIT GUIDE — MAIN SPACING
+   ---------------------------------------------------------
+   Change these values when you want to adjust spacing:
+   - section { padding:32px 0; }
+       = gap above/below main sections.
+   - #skills { padding-top:32px; }
+       = Core Competencies top gap.
+   - #contact { padding-top:32px; }
+       = Contact & References top gap.
+   - #education .grid2 { gap:22px; }
+       = desktop gap between Education and Training columns.
+   - #education .grid2 > div { margin-bottom:32px; }
+       = mobile gap before Training.
+   - #education .card { padding:15px; }
+       = Education/Training card inner padding.
+   - #contact .card { padding:15px; }
+       = Contact/References card inner padding.
+   - .hero-side { margin-top:20px; }
+       = gap before Experience/Role/Education/Location card.
+   ========================================================= */
+
+/* =========================================================
+   FINAL LAYOUT CONTRACT — DO NOT DUPLICATE THESE RULES
+   ---------------------------------------------------------
+   1. Core Competencies, Education/Training, and Contact/
+      References all start with the same 32px section gap.
+   2. Hero stats stay below the buttons on desktop, tablet,
+      and mobile — matching the mobile reference layout.
+   3. Education/Training and Contact/References cards keep
+      explicit padding so content cannot touch the edges.
+   4. To change ALL section gaps, edit only: section{padding:...}
+      and keep #skills/#contact at the same top value.
+   ========================================================= */
 </style>
 
 </head>
